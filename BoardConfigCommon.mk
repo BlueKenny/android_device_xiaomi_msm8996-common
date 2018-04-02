@@ -218,3 +218,6 @@ WPA_SUPPLICANT_VERSION := VER_0_8_X
 
 # Inherit from the proprietary version
 -include vendor/xiaomi/msm8996-common/BoardConfigVendor.mk
+
+# Ubuntu Touch Porting
+BOARD_USE_LOCAL_INITRD := true
